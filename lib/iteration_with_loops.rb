@@ -8,5 +8,9 @@ def join_nested_strings(src)
     while element < src[row].length do 
       puts element
       element += 1 
+    end
+    row += 1 
+  end
+end
       
     
