@@ -7,7 +7,7 @@ def join_nested_strings(src)
     element = 0 
     while element < src[row].length do 
       current_item = src[row][element]
-      if current_item.
+      puts current_item.class
       element += 1 
     end
     row += 1 
