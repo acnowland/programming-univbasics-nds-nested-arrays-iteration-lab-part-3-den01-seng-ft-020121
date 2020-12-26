@@ -7,7 +7,9 @@ def join_nested_strings(src)
     element = 0 
     while element < src[row].length do 
       current_item = src[row][element]
-      puts current_item.class
+      if current_item.class == String
+        all_strings += current_item + ' '
+      end
       element += 1 
     end
     row += 1 
