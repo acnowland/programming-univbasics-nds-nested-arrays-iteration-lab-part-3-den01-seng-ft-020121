@@ -3,7 +3,10 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   all_strings = ''
   row = 0 
-  for row in src
+  while row < src.length do 
     element = 0 
-    for element in src[row]
+    while element < src[row].length do 
+      puts element
+      element += 1 
+      
     
