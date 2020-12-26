@@ -6,7 +6,8 @@ def join_nested_strings(src)
   while row < src.length do 
     element = 0 
     while element < src[row].length do 
-      puts element
+      current_item = src[row][element]
+      puts current_item
       element += 1 
     end
     row += 1 
